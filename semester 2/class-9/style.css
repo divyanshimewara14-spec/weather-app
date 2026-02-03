@@ -71,27 +71,45 @@ main {
     box-shadow: 0 6px 18px rgba(0,0,0,0.35);
 }
 
+.temperature-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 120px;
+}
+
 .temperature {
-    font-size: 48px;
+    font-size: 32px;
     font-weight: 900;
     color: #7ec8e3;
-    margin-right: 12px;
+}
+
+.location-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .location {
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 800;
     color: #f1f7f8;
 }
 
 .date-time {
-    font-size: 14px;
+    font-size: 13px;
     color: rgba(255,255,255,0.8);
     margin-top: 4px;
 }
 
 .date-time span {
     margin-right: 8px;
+}
+
+.weather-status-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .weather-status {
